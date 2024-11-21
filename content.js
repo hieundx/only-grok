@@ -18,7 +18,7 @@ const interval = setInterval(() => {
     const main = document.querySelector('main');
 
     if (header && main) {
-        header.remove();
+        header.style.display = 'none';
         main.style.alignItems = 'center';
         overlay.remove();
         clearInterval(interval);
